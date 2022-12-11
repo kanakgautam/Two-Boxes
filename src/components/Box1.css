@@ -1,0 +1,9 @@
+.box1-container{
+    background-color: rgb(18, 235, 109);
+    margin: 10px;
+    height:100vh;
+    width: 60vw;
+    position: sticky;
+    z-index: 999;
+    left:0vh;
+}

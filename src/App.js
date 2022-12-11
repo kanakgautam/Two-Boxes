@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Box1 from './components/Box1'
+import Box2 from './components/Box2'
 import './App.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container" >
+    <h1>Please scroll right or down</h1>
+      <div className="section-1">
+        
+        <Box1/>
+      </div>
+      <div className="section-2">
+        <Box2/>
+      </div>
     </div>
   );
 }
